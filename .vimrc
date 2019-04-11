@@ -15,7 +15,7 @@ nnoremap <space> za
 " a linha abaixo define ctrl+n para mostrar/esconder o nerdtree
 map <C-n> :NERDTreeToggle<CR>
 " a linha abaixo auto-abre o nerdtree quando o vim é aberto
- au VimEnter *  NERDTree
+au VimEnter *  NERDTree
 " ------------------
 "  OPÇÕES DE TAB
 "  -----------------
