@@ -12,4 +12,4 @@ quiser incrementá-lo com mais configurações e extensões, recomento seguir [e
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 3. Abra o vim no Bash/GitBash/PowerShell e execute o comando vim :InstallPlugins
-4. Pronto! Agora é só reiniciar para ativar os plugins e usar, se quiser testar se está tudo funcionando basta dar um CTRL+n e ver se a PowerLine e o NerdTREE abrem.
+4. Pronto! Agora é só reiniciar para ativar os plugins e usar, se quiser testar se está tudo funcionando basta ver se a PowerLine e o NerdTREE abrem.
