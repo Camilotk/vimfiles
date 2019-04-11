@@ -12,8 +12,10 @@ set foldmethod=indent " esconde/mostra métodos
 set foldlevel=99
 " a linha abaixo define espaço como método de mostrar/esconder
 nnoremap <space> za
-" a linha abaixo define ctrl+n para abrir o nerdtree
+" a linha abaixo define ctrl+n para mostrar/esconder o nerdtree
 map <C-n> :NERDTreeToggle<CR>
+" a linha abaixo auto-abre o nerdtree quando o vim é aberto
+ au VimEnter *  NERDTree
 " ------------------
 "  OPÇÕES DE TAB
 "  -----------------
@@ -62,6 +64,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-fugitive'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'davidhalter/jedi-vim'
+Plugin 'mattn/emmet-vim'
 call vundle#end()                 " finaliza o Vundle
-
-
