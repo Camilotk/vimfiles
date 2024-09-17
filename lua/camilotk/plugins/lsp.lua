@@ -26,9 +26,14 @@ return {
           {name = 'nvim_lsp'},
         },
         mapping = cmp.mapping.preset.insert({
-          ['<C-Space>'] = cmp.mapping.complete(),
-          ['<C-u>'] = cmp.mapping.scroll_docs(-4),
-          ['<C-d>'] = cmp.mapping.scroll_docs(4),
+          ['<C-Space>'] = cmp.mapping.complete(),       -- Trigger completion
+          ['<C-w>'] = cmp.mapping.scroll_docs(-4),      -- Scroll up in documentation
+          ['<C-s>'] = cmp.mapping.scroll_docs(4),       -- Scroll down in documentation
+          ['<C-n>'] = cmp.mapping.select_next_item(),   -- Next suggestion
+          ['<C-p>'] = cmp.mapping.select_prev_item(),   -- Previous suggestion
+          ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Confirm selection with Enter
+          ['<Tab>'] = cmp.mapping.select_next_item(),   -- Tab for next suggestion
+          ['<S-Tab>'] = cmp.mapping.select_prev_item(), -- Shift-Tab for previous suggestion
         }),
         snippet = {
           expand = function(args)
