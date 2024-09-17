@@ -6,6 +6,7 @@ Este repositório contém minha configuração pessoal para o Neovim.
 
 - Neovim (versão 0.9 ou superior)
 - Git
+- Alguma [Nerd Font](https://www.nerdfonts.com/)
 - [LuaRocks](https://luarocks.org/)
 - [Node.js](https://nodejs.org/) (para alguns plugins LSP)
 - [Rust](https://www.rust-lang.org/) (para compilar alguns plugins)
