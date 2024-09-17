@@ -4,9 +4,9 @@ Este repositório contém minha configuração pessoal para o Neovim, focada pri
 
 ## Requisitos
 
-- Neovim (versão 0.5 ou superior)
+- Neovim (versão 0.9 ou superior)
 - Git
-- [Lazy.nvim](https://github.com/folke/lazy.nvim) (gerenciador de pacotes)
+- [LuaRocks](https://luarocks.org/)
 - [Node.js](https://nodejs.org/) (para alguns plugins LSP)
 - [Rust](https://www.rust-lang.org/) (para compilar alguns plugins)
 
@@ -51,7 +51,7 @@ Para adicionar novos plugins ou funcionalidades:
 
 1. Crie um novo arquivo em `lua/camilotk/plugins/` para o plugin desejado.
 2. Adicione a configuração do plugin usando o formato do Lazy.nvim.
-3. Importe o novo arquivo em `lua/camilotk/plugins/init.lua`.
+3. Execute `:Lazy install` para instalar os pacotes.
 
 Exemplo de adição de um novo plugin:
 
@@ -62,15 +62,6 @@ return {
   config = function()
     -- Configuração do plugin aqui
   end
-}
-```
-
-Depois, adicione-o ao `lua/camilotk/plugins/init.lua`:
-
-```lua
-return {
-  require("camilotk.plugins.meu_novo_plugin"),
-  -- outros plugins...
 }
 ```
 
