@@ -67,10 +67,6 @@ return {
 
 Lembre-se de consultar a documentação do Lazy.nvim para mais detalhes sobre como configurar plugins.
 
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias ou correções.
-
 ## Licença
 
 Este projeto está licenciado sob a [Unlicense](LICENSE).
