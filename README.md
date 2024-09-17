@@ -1,6 +1,6 @@
 # Configuração Neovim
 
-Este repositório contém minha configuração pessoal para o Neovim, focada principalmente no desenvolvimento OCaml e ReasonML.
+Este repositório contém minha configuração pessoal para o Neovim.
 
 ## Requisitos
 
