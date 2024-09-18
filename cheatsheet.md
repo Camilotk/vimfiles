@@ -24,5 +24,6 @@
 - `:LspStart`: Iniciar o cliente LSP para o buffer atual.
 
 ## Clojure REPL
+- `:ConjureSchool` para aprender todos os comandos
 #### Conjure
-- `,` local leader
+- `,` é definido como local leader
