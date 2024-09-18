@@ -22,3 +22,7 @@
 - `:LspInfo`: Visualizar detalhes sobre servidores LSP ativos.
 - `:LspInstall <server>`: Instalar um novo servidor de linguagem usando `mason.nvim`.
 - `:LspStart`: Iniciar o cliente LSP para o buffer atual.
+
+## Clojure REPL
+#### Conjure
+- `,` local leader
