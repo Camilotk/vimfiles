@@ -10,4 +10,4 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus"
+vim.opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus"
