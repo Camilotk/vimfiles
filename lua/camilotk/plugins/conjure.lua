@@ -8,6 +8,12 @@ return {
       -- Uncomment this to get verbose logging to help diagnose internal Conjure issues
       -- This is VERY helpful when reporting an issue with the project
       -- vim.g["conjure#debug"] = true
+      vim.api.nvim_create_autocmd("FileType", {
+        pattern = { "clojure", "fennel" }, -- Adjust patterns for other filetypes if needed
+        callback = function()
+          vim.g.maplocalleader = ","
+        end,
+      })
     end,
 
     -- Optional cmp-conjure integration
