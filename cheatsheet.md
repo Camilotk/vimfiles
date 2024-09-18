@@ -1,24 +1,24 @@
 # Command Cheat Sheet
 
 ## LSP
-#### **Key Mappings (LSP)**
-- `K`: Show hover documentation (`vim.lsp.buf.hover()`).
-- `gd`: Jump to definition (`vim.lsp.buf.definition()`).
-- `gD`: Jump to declaration (`vim.lsp.buf.declaration()`).
-- `gi`: Jump to implementation (`vim.lsp.buf.implementation()`).
-- `go`: Jump to type definition (`vim.lsp.buf.type_definition()`).
-- `gr`: List all references (`vim.lsp.buf.references()`).
-- `gs`: Show signature help (`vim.lsp.buf.signature_help()`).
-- `<F2>`: Rename symbol (`vim.lsp.buf.rename()`).
-- `<F3>`: Format buffer (`vim.lsp.buf.format()`).
-- `<F4>`: Show code actions (`vim.lsp.buf.code_action()`).
+#### **Mapeamentos de Teclas (LSP)**
+- `K`: Mostrar documentação em hover (`vim.lsp.buf.hover()`).
+- `gd`: Pular para definição (`vim.lsp.buf.definition()`).
+- `gD`: Pular para declaração (`vim.lsp.buf.declaration()`).
+- `gi`: Pular para implementação (`vim.lsp.buf.implementation()`).
+- `go`: Pular para definição de tipo (`vim.lsp.buf.type_definition()`).
+- `gr`: Listar todas as referências (`vim.lsp.buf.references()`).
+- `gs`: Mostrar ajuda de assinatura (`vim.lsp.buf.signature_help()`).
+- `<F2>`: Renomear símbolo (`vim.lsp.buf.rename()`).
+- `<F3>`: Formatar buffer (`vim.lsp.buf.format()`).
+- `<F4>`: Mostrar ações de código (`vim.lsp.buf.code_action()`).
 
-#### **Key Mappings (Autocompletion - `nvim-cmp`)**
-- `<C-Space>`: Trigger completion menu.
-- `<C-w>`: Scroll up in the documentation.
-- `<C-s>`: Scroll down in the documentation.
+#### **Mapeamentos de Teclas (Autocompletar - `nvim-cmp`)**
+- `<C-Space>`: Acionar menu de autocompletar.
+- `<C-w>`: Rolar para cima na documentação.
+- `<C-s>`: Rolar para baixo na documentação.
 
-#### **LSP Commands**
-- `:LspInfo`: View details about active LSP servers.
-- `:LspInstall <server>`: Install a new language server using `mason.nvim`.
-- `:LspStart`: Start the LSP client for the current buffer.
+#### **Comandos LSP**
+- `:LspInfo`: Visualizar detalhes sobre servidores LSP ativos.
+- `:LspInstall <server>`: Instalar um novo servidor de linguagem usando `mason.nvim`.
+- `:LspStart`: Iniciar o cliente LSP para o buffer atual.
