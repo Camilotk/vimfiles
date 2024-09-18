@@ -2,9 +2,9 @@
 
 ## LSP
 #### **Mapeamentos de Teclas (LSP)**
-- `K`: Mostrar documentação em hover (`vim.lsp.buf.hover()`).
-- `gd`: Pular para definição (`vim.lsp.buf.definition()`).
-- `gD`: Pular para declaração (`vim.lsp.buf.declaration()`).
+- `K`: Mostrar documentação em hover (que o cursor está sobre) (`vim.lsp.buf.hover()`).
+- `gd`: Pular para definição (jump to definition) (`vim.lsp.buf.definition()`).
+- `gD`: Pular para declaração (jump to declaration) (`vim.lsp.buf.declaration()`).
 - `gi`: Pular para implementação (`vim.lsp.buf.implementation()`).
 - `go`: Pular para definição de tipo (`vim.lsp.buf.type_definition()`).
 - `gr`: Listar todas as referências (`vim.lsp.buf.references()`).
